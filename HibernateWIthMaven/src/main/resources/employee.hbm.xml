@@ -1,0 +1,14 @@
+<hibernate-mapping>
+	<class name="com.hibernate_demo_with_maven.Employee"
+		table="New_Employee123">
+		<id name="empId" type="int" column="empId">
+			<generator class="assigned" />
+		</id>
+		<property name="empName">
+			<column name="empName" />
+		</property>
+		<property name="address">
+			<column name="address" />
+		</property>
+	</class>
+</hibernate-mapping>
